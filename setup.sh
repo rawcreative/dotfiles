@@ -46,6 +46,7 @@ brew install redis
 brew install trash
 brew install mackup
 brew install node
+brew install n
 brew install watchman
 brew install sqlite
 brew install s3cmd
@@ -55,6 +56,8 @@ brew install imagemagick
 brew install ssh-copy-id
 brew install the_silver_searcher
 brew install httpie
+brew install broot
+brew install z
 
 #@TODO install our custom fonts and stuff
 
@@ -101,10 +104,10 @@ apps=(
   firefox
   google-chrome
   handbrake
+  imageoptim
   insomnia
   iterm2
   kap
-  lastpass
   microsoft-office
   private-internet-access
   querious
