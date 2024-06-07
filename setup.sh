@@ -213,8 +213,7 @@ echo "Please setup and sync Dropbox, and then run this script again."
 read -p "Press [Enter] key after this..."
 
 echo "Restoring setup from Mackup..."
-#mackup restore @TODO uncomment
-
+mackup restore
 
 echo "Setting some Mac settings..."
 
