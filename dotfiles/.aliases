@@ -115,3 +115,6 @@ alias weather='curl -s wttr.in | sed -n "1,7p"'
 # Reset webcam
 alias resetcam='sudo killall VDCAssistant'
 alias camreset='sudo killall VDCAssistant'
+
+# Add Space in the Dock
+alias dockspace="defaults write com.apple.dock persistent-apps -array-add '{\"tile-type\"=\"spacer-tile\";}'; killall Dock"
